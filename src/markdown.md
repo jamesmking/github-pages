@@ -1,8 +1,12 @@
-#Markdown 
+---
+layout: default
+---
+
+# Markdown 
 - bullet
 - another
 
-##Heading 2
+## Heading 2
 
 Here are some tables 
 
