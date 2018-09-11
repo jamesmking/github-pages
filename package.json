@@ -7,10 +7,6 @@
     "type": "git",
     "url": "git+https://github.com/jamesmking/github-pages.git"
   },
-  "scripts": {
-    "build": "node tasks/build.js",
-    "start": "node tasks/serve.js"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
