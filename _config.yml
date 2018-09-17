@@ -30,4 +30,4 @@ markdown: kramdown
 source: "./src/"
 
 
-theme: jekyll-theme-merlot
+theme: jekyll-theme-cayman
