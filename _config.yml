@@ -29,3 +29,5 @@ github_username:  jekyll
 markdown: kramdown
 source: "./src/"
 
+
+theme: jekyll-theme-merlot
