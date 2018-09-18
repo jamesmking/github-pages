@@ -28,6 +28,3 @@ github_username:  jekyll
 # Build settings
 markdown: kramdown
 source: src
-
-theme: minima
-layout: default
