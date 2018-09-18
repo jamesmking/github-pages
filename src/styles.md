@@ -1,6 +1,0 @@
----
-title: Styles
-permalink: /styles/
----
-
-

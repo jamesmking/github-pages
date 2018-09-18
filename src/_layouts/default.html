@@ -5,8 +5,20 @@
     <title>{{ page.title }}</title>
 </head>
 <body>
-Header should go here
+
+<header>
+    <nav>
+        <ul>
+            {% for doc in site.pages %}
+            {% if doc.layout == "default" %}
+            <li><a href="{{ site.baseurl }}{{ doc.url }}">{{ doc.title }}</a></li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+    </nav>
+</header>
+
 {{ content }}
-Footer should go here
+
 </body>
 </html>
