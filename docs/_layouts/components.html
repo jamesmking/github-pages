@@ -8,7 +8,7 @@ layout: default
 		<ul class="govuk-list">
         {% for component in site.data.components %}
           <li>
-            <a href="{{ site.baseurl }}/components/{{ component.slug }}/" class="govuk-link govuk-link--no-visited-state {% if page.current == component.slug %} govuk-!-font-weight-bold {% endif %}">
+            <a href="{{ site.baseurl }}/components/{{ component.slug }}" class="govuk-link govuk-link--no-visited-state {% if page.current == component.slug %} govuk-!-font-weight-bold {% endif %}">
               {{ component.name }}
             </a>
           </li>
