@@ -5,4 +5,4 @@
 layout: home
 ---
 
-This is some content
+This is some content, anything can go here
